@@ -55,3 +55,13 @@ Game assemblies are referenced from `GameDir`, and BepInEx/Harmony from `lib/`. 
 - Tested against game build Unity 6000.6. Game updates may break the patches.
 - Shared items can take a few seconds to show up on clients after a purchase.
 - Only a vehicle's owner can buy upgrades for it. The result then applies to every vehicle of that model.
+
+## License
+
+[MIT](LICENSE) © Chachigo.
+
+`lib/` bundles third-party binaries, which are used only as build references:
+- `BepInEx.dll` – [BepInEx](https://github.com/BepInEx/BepInEx), LGPL-2.1
+- `0Harmony.dll` – [HarmonyX](https://github.com/BepInEx/HarmonyX), MIT
+
+This is an unofficial fan mod. It is not affiliated with the developers of Moon Sweepers.
